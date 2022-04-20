@@ -153,25 +153,14 @@
             <BankSize>16</BankSize>
 		</Variant>
 	</Controller>
-    <AbstractVariant Name="BaseV4FalconSettings">
-        <SupportsUpload/>
-        <SupportsInputOnlyUpload/>
-		<SupportsPixelPortCommonSettings/>
-		<SupportsFullxLightsControl/>
-        <SupportsMultipleSimultaneousOutputProtocols/>
-        <SupportsMultipleSimultaneousInputProtocols/>
-        <SupportsVirtualStrings/>
-        <SupportsAutoLayout/>
-        <MergeConsecutiveVirtualStrings/>
+    <AbstractVariant Name="BaseV4FalconSettings" Base="Falcon:BaseFalconSettings">
         <SupportsPixelPortEndNullPixels/>
         <MaxStartNulls>20</MaxStartNulls>
         <MaxEndNulls>20</MaxEndNulls>
         <MaxGroup>10</MaxGroup>
         <MinGroup>1</MinGroup>
         <AllSmartRemoteTypesPerPortMustBeSame/>
-        <SupportsDefaultBrightness/>
         <MaxInputUniverses>192</MaxInputUniverses>
-        <MaxSerialPortChannels>512</MaxSerialPortChannels>
         <SerialProtocols>
             <Protocol>dmx</Protocol>
             <Protocol>renard</Protocol>
