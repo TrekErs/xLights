@@ -2,7 +2,6 @@
     <AbstractVariant Name="BaseFalconSettings">
         <SupportsUpload/>
         <SupportsInputOnlyUpload/>
-        <!--SupportsAutoUpload/-->
         
 		<SupportsPixelPortCommonSettings/>
         
@@ -12,11 +11,13 @@
         <SupportsMultipleSimultaneousInputProtocols/>
         <UniversesMustBeInNumericalOrder/>
         
-        <!--SupportsLEDPanelMatrix/-->
+        <!--SupportsAutoUpload/-->
+	<!--SupportsLEDPanelMatrix/-->
         <!--AllInputUniversesMustBeSameSize/-->
         <!--UniversesMustBeSequential/-->
         <!--NoWebUI/-->
-        <SupportsVirtualStrings/>
+        
+	<SupportsVirtualStrings/>
         <SupportsAutoLayout/>
         <MergeConsecutiveVirtualStrings/>
 		<SupportsRemotes/>
